@@ -24,10 +24,10 @@ Dans cette question, on utilise le champ "Last-Modified" pour analyser la date d
 
 
 ## Question 3
-Dans cette question, on s'intéresse à 3 propriétes des headers.
+Dans cette question, nous avons choisi de regarder les statistiques liées à trois propriétés des headers : le nombre de champs utilisés par un header, la longueur de la réponse et l'utilisation des cookies.
 
-* Dans un premier cas, on regarde le nombre de champ utilisé par un header. On constate que cette valeur varie énormément d'un site à l'autre. On affiche également le champ le plus présent et celui le moins présent (ainsi que leur occurence), puis le nombre de champs par site.
+* En ce qui concerne le nombre de champs utilisés, nous avons remarqué que cette valeur varie énormément d'un site à l'autre, et nous avons donc décidé d'afficher également le champ le plus présent et celui le moins présent (ainsi que leur occurrence) ainsi que le nombre de champs par site.
 
-* On s'intéresse à présent à la longeur de la réponse, qui nous est donnée avec le champ "Content-Length". On affiche la valeur moyenne, l'écart-type et la longeur pour chaque site.
+* En ce qui concerne la longueur de la réponse, nous avons choisi d'afficher la valeur moyenne, l'écart-type et la longueur pour chaque site. Cette statistique peut nous donner une idée de la taille des pages web et nous permettre de comprendre comment les sites web sont construits.
 
-* Enfin, on regarde à l'utilisation des cookies. On constate qu'un fort pourcentage de site utilise le champ "Cookies" des headers (70%). On affiche les sites utilisant les cookies, et leur contenu. 
+* Enfin, nous avons étudié l'utilisation des cookies et nous avons constaté que 70% des sites utilisaient le champ "Cookies" des headers. Nous avons affiché les sites utilisant les cookies et leur contenu pour permettre aux utilisateurs de mieux comprendre comment les cookies sont utilisés pour suivre leur activité en ligne.
