@@ -16,6 +16,12 @@
             cursor: pointer;
             border-radius: 12px;
         }
+
+        pre {
+            font-size: 16px;
+        }
+
+
     </style>
     <script>
         async function fetchData(action) {
@@ -30,6 +36,8 @@
     </script>
 </head>
 <body>
+    <h1>Cliquer sur un bouton pour lancer un scenario</h1>
+    <br/>
     <button onclick='fetchData("q1")'>Question 1</button>
     <button onclick='fetchData("q2")'>Question 2</button>
     <button onclick='fetchData("q3")'>Question 3</button>

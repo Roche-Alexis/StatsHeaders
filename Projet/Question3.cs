@@ -119,18 +119,20 @@ namespace Projet
 
             double resp = totalField / urls.Count();
             string averageHeaderFields = $"En moyenne, un site a {resp} champs dans son header.";
-            string mostCommonHeader = $"Header le plus présent : {maxHeader.Key} ({maxHeader.Value} occurrences)";
-            string leastCommonHeader = $"Header le moins présent : {minHeader.Key} ({minHeader.Value} occurrence)";
+            string mostCommonHeader = $"Champ le plus présent : {maxHeader.Key} ({maxHeader.Value} occurrences)";
+            string leastCommonHeader = $"Champ le moins présent : {minHeader.Key} ({minHeader.Value} occurrence)";
 
             fieldsBuilder.Insert(0, $"{averageHeaderFields}\n{mostCommonHeader}\n{leastCommonHeader}\n\n");
 
 
             StringBuilder combinedBuilder = new StringBuilder();
-            combinedBuilder.Append(cookiesBuilder);
-            combinedBuilder.AppendLine("\n");
-            combinedBuilder.Append(lenBuilder);
-            combinedBuilder.AppendLine("\n");
             combinedBuilder.Append(fieldsBuilder);
+
+            combinedBuilder.AppendLine("\n\n");
+            combinedBuilder.Append(lenBuilder);
+            combinedBuilder.AppendLine("\n\n");
+            combinedBuilder.Append(cookiesBuilder);
+
 
 
             return combinedBuilder.ToString();
