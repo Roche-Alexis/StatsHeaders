@@ -92,6 +92,9 @@ namespace BasicServerHTTPlistener
             listener.Prefixes.Add("http://localhost:8080/");
             listener.Start();
 
+            Console.WriteLine($"Listening on port 8080...");
+
+
             // get args
             foreach (string s in args)
             {
