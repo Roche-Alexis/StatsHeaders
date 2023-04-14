@@ -13,3 +13,4 @@ C:\Users\Alexi\source\repos\Projet\Projet\obj\Debug\net7.0\refint\Projet.dll
 C:\Users\Alexi\source\repos\Projet\Projet\obj\Debug\net7.0\Projet.pdb
 C:\Users\Alexi\source\repos\Projet\Projet\obj\Debug\net7.0\Projet.genruntimeconfig.cache
 C:\Users\Alexi\source\repos\Projet\Projet\obj\Debug\net7.0\ref\Projet.dll
+C:\Users\Alexi\source\repos\Projet\Projet\bin\Debug\net7.0\urls.txt

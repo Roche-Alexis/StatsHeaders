@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        button {
+            background-color: #4CAF50;
+            border: none;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            font-weight: 700;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 12px;
+        }
+    </style>
+    <script>
+        async function fetchData(action) {
+            document.getElementById('dataDisplay').style.display = 'none';
+            document.getElementById('loadingText').style.display = 'block';
+            const response = await fetch('/fetch-' + action);
+            const data = await response.text();
+            document.getElementById('dataDisplay').innerText = data;
+            document.getElementById('loadingText').style.display = 'none';
+            document.getElementById('dataDisplay').style.display = 'block';
+        }
+    </script>
+</head>
+<body>
+    <button onclick='fetchData("q1")'>Question 1</button>
+    <button onclick='fetchData("q2")'>Question 2</button>
+    <button onclick='fetchData("q3")'>Question 3</button>
+
+
+    <p id='loadingText' style='display: none; position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); font-size: 28px; color: #21618C; font-weight: bold;'>Fetching data, please wait...</p>
+
+    <pre id='dataDisplay'></pre>
+</body>
+</html>
