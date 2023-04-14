@@ -1,0 +1,15 @@
+C:\Users\Alexi\source\repos\Projet\Projet\bin\Debug\net7.0\Projet.exe
+C:\Users\Alexi\source\repos\Projet\Projet\bin\Debug\net7.0\Projet.deps.json
+C:\Users\Alexi\source\repos\Projet\Projet\bin\Debug\net7.0\Projet.runtimeconfig.json
+C:\Users\Alexi\source\repos\Projet\Projet\bin\Debug\net7.0\Projet.dll
+C:\Users\Alexi\source\repos\Projet\Projet\bin\Debug\net7.0\Projet.pdb
+C:\Users\Alexi\source\repos\Projet\Projet\obj\Debug\net7.0\Projet.csproj.AssemblyReference.cache
+C:\Users\Alexi\source\repos\Projet\Projet\obj\Debug\net7.0\Projet.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alexi\source\repos\Projet\Projet\obj\Debug\net7.0\Projet.AssemblyInfoInputs.cache
+C:\Users\Alexi\source\repos\Projet\Projet\obj\Debug\net7.0\Projet.AssemblyInfo.cs
+C:\Users\Alexi\source\repos\Projet\Projet\obj\Debug\net7.0\Projet.csproj.CoreCompileInputs.cache
+C:\Users\Alexi\source\repos\Projet\Projet\obj\Debug\net7.0\Projet.dll
+C:\Users\Alexi\source\repos\Projet\Projet\obj\Debug\net7.0\refint\Projet.dll
+C:\Users\Alexi\source\repos\Projet\Projet\obj\Debug\net7.0\Projet.pdb
+C:\Users\Alexi\source\repos\Projet\Projet\obj\Debug\net7.0\Projet.genruntimeconfig.cache
+C:\Users\Alexi\source\repos\Projet\Projet\obj\Debug\net7.0\ref\Projet.dll
